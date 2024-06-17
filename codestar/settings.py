@@ -33,7 +33,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-kalyanikomm-djangoblog1-3j6z2no2spp.ws-eu114.gitpod.io','*.herokuapp.com']
+ALLOWED_HOSTS = ['8000-kalyanikomm-djangoblog1-3j6z2no2spp.ws-eu114.gitpod.io','django-blog1-5-697a2bb0cf39.herokuapp.com']
 
 
 
