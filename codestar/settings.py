@@ -25,13 +25,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get("SECRET_KEY")
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+
 
 # SECRET_KEY = 'django-insecure-3%csnqcxqzu++26o664(xdpv^qfg-pnt%u#ybk850-v-86ws(c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-kalyanikomm-djangoblog1-3j6z2no2spp.ws-eu114.gitpod.io','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-kalyanikomm-djangoblog1-3j6z2no2spp.ws-eu114.gitpod.io','*.herokuapp.com']
 
 
 
